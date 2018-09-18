@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import CSSTransition from 'react-addons-css-transition-group'
+import './style.css'
 
 function Comment({ comment }) {
   return (
